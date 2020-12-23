@@ -26,7 +26,7 @@ if __name__ == '__main__':
             return(" попытки ")
 
 
-    computer_numb = 5 #(random.randrange(min, max))
+    computer_numb = random.randrange(min, max)
 
 
     humen_numb = input("Какое число от " + str(min) + " до " + str(max) + " я загадаал?"  "\nУ тебя "
